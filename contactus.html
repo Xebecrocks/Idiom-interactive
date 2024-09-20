@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Abhay</title>
+    <meta name="title" content="Abhay">
+    <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./sa.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="/contactus/css/style.css">
+
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home" class="logo-light">
+
+                <img src="./assets/images/logo-dark.svg" width="74" height="24" alt="Adex home" class="logo-dark">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/Starter file - Adex/Adex/about.html" class="navbar-link">About</a>
+                    </li>
+
+
+
+
+
+                    <li>
+                        <a href="#" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+                    <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+
+
+    <section class="ftco-section"></section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+                <h2 class="heading-section"></h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="wrapper">
+                    <div class="row no-gutters">
+                        <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                            <div class="contact-wrap w-100 p-md-5 p-4">
+                                <h3 class="mb-4">Get in touch</h3>
+                                <div id="form-message-warning" class="mb-4"></div>
+                                <div id="form-message-success" class="mb-4">
+                                    Your message was sent, thank you!
+                                </div>
+                                <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="label" for="name">Full Name</label>
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="label" for="email">Email Address</label>
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="label" for="subject">Subject</label>
+                                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="label" for="#">Message</label>
+                                                <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="submit" value="Send Message" class="btn btn-primary">
+                                                <div class="submitting"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+                            <div class="info-wrap bg-primary w-100 p-md-5 p-4">
+                                <h3>Let's get in touch</h3>
+                                <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                                <div class="dbox w-100 d-flex align-items-start">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-map-marker"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <p><span>Address:</span> House no:1 Mohalla 29 Sadar Bazar, Jalandhar Cantt Punjab, 144005</p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <p><span>Phone:</span>
+                                            <a href="tel://8091717858">+91-8091717858</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-paper-plane"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <p><span>Email:</span> <a href="mailto:abhayrana4656@gmail.com">abhayrana4656@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex align-items-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="text pl-3">
+                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+        <div class="container grid-list">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+                </a>
+
+                <p class="footer-text">
+                    &copy; 2024 with idiom interactive <br> All rights reserved.
+                </p>
+
+                <ul class="social-list">
+
+
+
+
+
+
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Get in Touch</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+        Moonshine St. 14/05 Light City, London, United Kingdom
+      </address>
+                </li>
+
+                <li>
+                    <a href="mailto:abhayrana4656@gmail.com" class="footer-link">abhayrana4656@gmail.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:001234567890" class="footer-link">00 (123) 456 78 90</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Learn More</p>
+                </li>
+
+                <li>
+                    <a href="/Starter file - Adex/Adex/about.html" class="footer-link">About Us</a>
+                </li>
+
+
+
+
+
+
+
+                <li>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+    <script src="/about us/script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- 
+    - ionicon
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
